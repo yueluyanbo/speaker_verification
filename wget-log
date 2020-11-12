@@ -1,0 +1,11 @@
+--2020-09-29 20:59:55--  http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1a/vox1_dev_wav_partab
+Resolving www.robots.ox.ac.uk (www.robots.ox.ac.uk)... 129.67.94.2
+Connecting to www.robots.ox.ac.uk (www.robots.ox.ac.uk)|129.67.94.2|:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Authentication selected: Basic realm="VoxCeleb1"
+Reusing existing connection to www.robots.ox.ac.uk:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10737418240 (10G)
+Saving to: ‘/work/yuan/Work/Data/vox1_dev_wav_partab’
+
+/work/yuan/Work/Data/vox1_dev_wav_part   4%[==>                                                                        ] 485.56M   455KB/s    eta 6h 7m  /work/yuan/Work/Data/vox1_dev_wav_part   4%[==>                                                                        ] 485.67M   458KB/s    eta 6h 7m  

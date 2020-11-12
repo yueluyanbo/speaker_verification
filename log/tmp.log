@@ -1,0 +1,41 @@
+Embedding size is 512, encoder ASP.
+Initialised Softmax Loss
+Initialised AngleProto
+Initialised SoftmaxPrototypical Loss
+Initialised Adam optimizer
+Initialised step LR scheduler
+Model pretrained_model/baseline_v2_ap.model loaded!
+Reading 0 of 4: 0.00 Hz, embedding size 512
+Computing 0 of 3: 0.00 Hz
+
+******************
+fpr: [  0.   0.   0. 100.]
+fnr: [100.  50.   0.   0.]
+******************
+******************
+tfa:  1
+numpy.absolute((tfa - fpr)):  [ 1.  1.  1. 99.]
+idx = numpy.nanargmin(numpy.absolute((tfa - fpr))):  0
+[thresholds[idx], fpr[idx], fnr[idx]:  0.1285305619239807 0.0 100.0
+******************
+******************
+tfa:  0.1
+numpy.absolute((tfa - fpr)):  [ 0.1  0.1  0.1 99.9]
+idx = numpy.nanargmin(numpy.absolute((tfa - fpr))):  0
+[thresholds[idx], fpr[idx], fnr[idx]:  0.1285305619239807 0.0 100.0
+******************
+EER 0.0000
+******************
+fpr: [  0.   0.   0. 100.]
+fnr: [100.  50.   0.   0.]
+******************
+******************
+tfa:  0.0
+numpy.absolute((tfa - fpr)):  [  0.   0.   0. 100.]
+idx = numpy.nanargmin(numpy.absolute((tfa - fpr))):  0
+[thresholds[idx], fpr[idx], fnr[idx]:  0.1285305619239807 0.0 100.0
+******************
+******************
+tunedThreshold:  0.1285305619239807 when the EER is 0.0000
+******************
+Type desired file name to save scores. Otherwise, leave blank.
